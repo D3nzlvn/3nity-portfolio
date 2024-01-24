@@ -296,18 +296,20 @@ section#home{
 .main1{
     margin: auto;
     width: 90%;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .main1 h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 600;
 }
 
 .contents{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -766,6 +768,7 @@ section#home{
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgb(53, 51, 51);
     width: auto;
+    
 }
 
 .filter h3{
@@ -1250,9 +1253,66 @@ footer {
        font-size: 4rem;
     }
 
+    .filter {
+        overflow: hidden;      
 }
 
-@media screen and (max-width: 998px) {
+.nav_links{
+    gap: 2rem;
+}
+
+.nav_links a{
+    padding: 3px 10px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+
+
+   .photo-gallery {
+       grid-template-columns: repeat(2, 1fr);
+   }
+   .filter h3 {
+       padding: 0 15px; 
+   }
+
+   label {
+       margin: 0 10px; 
+       font-size: 12px; 
+       overflow: hidden;
+   }
+
+   .blog-contain{
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 10px 0px;
+   }
+
+   .contacts h1, .contacts h1 span{
+       font-size: 3rem;
+    }
+    .contentt {
+       flex-direction: column;
+    }
+    .p-socialss{
+       width: 100%;
+       margin-left: 0;
+       margin-top: 20px;
+       margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+.filter {
+        font-size: 11px; 
+        overflow: hidden;
+}
+}
+
+
+
+
+@media screen and (max-width: 1040px) {
     .navbar .nav_links{
      display:none;
     }
@@ -1296,9 +1356,32 @@ footer {
         margin-bottom: 50px;
      }
      
+     
+
+      .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  
+      .left h1 {
+        font-size: 4vw;
+      }
+  
+      .left p {
+        font-size: 14px;
+      }
+  
+      .left a {
+        font-size: 14px;
+      }
+  
+      .right .info span {
+        font-size: 14px;
+      }
+     
 }
 
-@media(max-width:576px){
+@media(max-width:600px){
     .dropdown_menu{
         left: 2rem;
         width: unset;
@@ -1312,9 +1395,12 @@ footer {
         font-size: 1.6rem;
         
     }
+    .filter h3 {
+        padding: 0 10px; 
+    }
     label {
         margin: 0 5px; 
-        font-size: 16px; 
+        font-size: 14px; 
         overflow: hidden;
     }
 
@@ -1383,4 +1469,26 @@ footer {
      .buttonss button{
         width: 100%;
      }
+
+    
+      
+      .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+      .left h1 {
+        font-size: 5vw;
+      }
+  
+      .left p {
+        font-size: 12px;
+      }
+  
+      .left a {
+        font-size: 12px;
+      }
+  
+      .right .info span {
+        font-size: 12px;
+      }
 }
