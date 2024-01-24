@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden; 
+   
 }
 
 
@@ -179,6 +179,8 @@ section{
     color: #fff;
     font-weight: 700;
     flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -461,6 +463,7 @@ section#home{
     align-items: center;
     flex-wrap: wrap;
     margin: 40px 0;
+    
 }
 
 .team1 .main2{
@@ -534,7 +537,7 @@ section#home{
     position: absolute;
     bottom: 50px;
     display: flex;
-    
+    overflow-y: hidden;
 }
 
 .team1 .main2 .sci li{
@@ -714,7 +717,6 @@ section#home{
 .portfolio1{
     min-height: 100vh;
     width: 100%;
-    
     overflow-x: hidden; 
 }
 
