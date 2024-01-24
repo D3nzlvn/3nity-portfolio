@@ -694,7 +694,7 @@ section#home{
 .portfolio1{
     min-height: 100vh;
     width: 100%;
-    background-color: #5d5f96;
+    background-color: #2272FF;
     overflow-x: hidden; 
 }
 
@@ -863,7 +863,7 @@ label:hover{
     align-items: center;
     padding: 50px 0px;
     background-color: #191a2b;
-    
+
 }
 
 
