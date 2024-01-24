@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script1.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" 
+    integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <title>3nity Portfolio | DVMJP AFK TVN </title>
+</head>
+<body>
+
+    <!--Navigation-->
+<header>
+    <div class="navbar">
+            <div class="logo"><a href="#home"><img src="Images/LOGO.png" alt="Logo" class="logo-img"></a></div>
+                <nav class="nav_links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#team">Team</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact" >Contact Us</a>
+                </nav>
+                    
+
+                <div class="togglebtn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+    </div>
+
+    <!--DROPDOWN MENU-->
+    <div class="dropdown_menu">
+        <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a class="action_btn" href="#contact">Contact Us</a></li>  
+    </div>
+</header>
+
+
+
+<!--Dropdownmenu-->
+<script>
+    const toggleBtn = document.querySelector('.togglebtn')
+    const toggleBtnIcon = document.querySelector('.togglebtn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ?'fa-solid fa-times'
+        :'fa-solid fa-bars';
+    }
+</script>
+
+    <!--REFRESH CODING JAVA SCRIPT-->
+<script>
+    // Check if the page is being loaded or refreshed
+    if (performance.navigation.type === 1) {
+         // Page is refreshed, redirect to index.html
+            window.location.href = 'index.html';
+    }
+</script>
+
+
+<main>
+    <section id="home">
+        <div class="main">
+                <span style="--a:1">W</span>
+                <span style="--a:2">E</span>
+                <span style="--a:3">L</span>
+                <span style="--a:4">C</span>
+                <span style="--a:5">O</span>
+                <span style="--a:6">M</span>
+                <span style="--a:7">E</span>
+        </div>
+    </section>
+</main>
+
+
+
+<section class="about" id="about">
+        <div class="main1"> <!--skills-->
+            <h1>About Us</h1>
+            <div class="contents">
+                <div class="left">
+                    <h1>Details and Skills</h1>
+                    <p>Welcome to 3nity, where creativity, innovation, and expertise converge to bring your ideas to life. Comprising a dynamic trio of skilled professionals, 3nity is your go-to destination for a comprehensive range of services, including web development, graphic design, game development, AutoCAD, mobile development, and more.
+                        Meet our team of passionate individuals, each with a unique set of skills and a shared commitment to excellence. Together, we form a synergy that transforms your visions into reality, delivering tailored solutions that captivate, engage, and elevate your brand.
+                        <br><br>
+                        Join us on a journey where innovation knows no bounds. 3nity where ideas take flight, creativity knows no limits, and excellence is a way of life.
+                    </p>
+                    <a href="#">Lets' Talk</a>
+                </div>
+                <div class="right">
+                    <div class="line">
+                        <div class="info">
+                            <span>Website Development</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="bars Web"></div>
+                    </div>
+                    <div class="line">
+                        <div class="info">
+                            <span>Graphic Design</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="bars Graph"></div>
+                    </div>
+                    <div class="line">
+                        <div class="info">
+                            <span>AutoCad</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="bars Cad"></div>
+                    </div>
+                    <div class="line">
+                        <div class="info">
+                            <span>Game Development</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="bars Gaming"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section id="team" class="team1">
+    <div class="center"><h1>Meet the Team 3nity</h1></div>
+    <div class="team" > <!--container-->
+        <div class="main2"><!--card-->
+                <div class="content">
+                    <div class="imgBx"><img src="denz.jpg"></div>
+                        <div class="contentBx">
+                            <h3 class="name">Denzel Van Torres <br><span class="occ">Developer</span></h3>
+                        </div>         
+                </div>
+            <ul class="sci">
+                <li style="--i:1"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li style="--i:2"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li style="--i:3"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="main2"><!--card-->
+            <div class="content">
+                <div class="imgBx"><img src="pao.jpg"></div>
+                    <div class="contentBx">
+                        <h3 class="name">Paolito Natividad <br><span class="occ">Graphic Designer</span></h3>
+                    </div>         
+            </div>
+        <ul class="sci">
+            <li style="--i:1"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li style="--i:2"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li style="--i:3"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="main2"><!--card-->
+        <div class="content">
+            <div class="imgBx"><img src="mj.png"></div>
+                <div class="contentBx">
+                    <h3 class="name">Mary Jane Valeros <br><span class="occ">Tiktoker</span></h3>
+                </div>         
+        </div>
+    <ul class="sci">
+        <li style="--i:1"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li style="--i:2"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li style="--i:3"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+</div>
+    </div>
+</section>
+
+
+<section id="services">
+    <div class="services" >
+        <div class="main3">
+                <div class="services-text">
+                    <h1>Our Services <span></span></h1>  
+                    <div class="cards">
+                        <div class="card1">
+                            <i class="fa-brands fa-chromecast"></i>
+                            <h2>Website Development</h2>
+                            <p>Our web development team combines technical prowess with creative flair to build visually stunning and functionally robust websites. 
+                                Whether you're establishing your digital footprint or revamping an existing site, we've got you covered.</p>
+                        </div>
+                        <div class="card1">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h2>Website Development</h2>
+                            <p>Precision meets creativity with our AutoCAD services. Whether you're an architect, engineer, or designer, we provide meticulous drafting and design solutions tailored to your specifications. Our commitment to detail ensures that your projects are brought to life with precision and accuracy.</p>
+                        </div>
+                        <div class="card1">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h2>Mobile Development</h2>
+                            <p>Stay ahead in the mobile world with our mobile development services. From iOS to Android, we create intuitive and seamless mobile applications that resonate with your audience. Our development process prioritizes user experience, functionality, and performance.</p>
+                        </div>
+                        <div class="card1">
+                            <i class="fa-solid fa-camera"></i>
+                            <h2>Graphic Design</h2>
+                            <p>Dive into the world of aesthetics with our graphic design services. From eye-catching logos to compelling marketing collateral,
+                                 our designers craft visuals that leave a lasting impression. We blend creativity with strategic thinking to ensure your brand stands out in a crowded digital landscape.</p>
+                        </div>
+                        <div class="card1">
+                            <i class="fa-solid fa-gear"></i>
+                            <h2>Game Development</h2>
+                            <p>Embark on a gaming adventure with 3nity's game development expertise. Our team brings your gaming concepts to life, incorporating cutting-edge technology and captivating storytelling. 
+                                Immerse your audience in unforgettable gaming experiences that keep them coming back for more.</p>
+                        </div>
+                        <div class="card1">
+                            <i class="fa-solid fa-gear"></i>
+                            <h2>Other</h2>
+                            <p>Beyond these core offerings, 3nity is your one-stop destination for a myriad of services. Our versatile skill set enables us to tackle diverse projects, ensuring that we meet your specific needs and exceed your expectations.</p>
+                        </div>
+                    </div>          
+                </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="portfolio1" id="portfolio">
+    <div class="containers" >
+
+        <h1 class="Titles">Latest Projects<span></span></h1>
+        <div class="filter"> 
+            <h3>Portfolio</h3>
+                <input type="radio" name="filter" id="filter-all" value="all" checked>
+                <label for="filter-all">All</label>
+                <input type="radio" name="filter" id="filter-Website" value="Website">
+                <label for="filter-Website">Websites</label>
+                <input type="radio" name="filter" id="filter-Graphics" value="Graphics">
+                <label for="filter-Graphics">Graphics Designs</label>
+                <input type="radio" name="filter" id="filter-Autocad" value="Autocad">
+                <label for="filter-Autocad">Autocad</label>
+                <input type="radio" name="filter" id="filter-Games" value="Games">
+                <label for="filter-Games">Games</label>
+        </div>
+
+    
+    <div class="photo-gallery">
+        <div class="pic Website">
+            <img src="Images/image1.jpg">
+            <div class="overlay">
+                <div class="overlay-text">
+                  <a href="#" target="_blank">Website</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pic Graphics">
+            <img src="Images/image2.png">
+            <div class="overlay">
+                <div class="overlay-text">
+                  <a href="#" target="_blank">Graphic Designs</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pic Autocad">
+            <img src="Images/image3.jpg">
+            <div class="overlay">
+                <div class="overlay-text">
+                  <a href="Images/image3.jpg" target="_blank">Autocad</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pic Games">
+            <img src="Images/image4.jpg">
+            <div class="overlay">
+                <div class="overlay-text">
+                  <a href="https://pfnatividad.wixsite.com/ppsspp2kmods?fbclid=IwAR2_IRAHJARwEOyHBaeQ9rJzngkSmWCL1rMTFONJ4FjlGk7z9QzXlbfamuo" target="_blank">PPSSPP2KMODS</a>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+
+</section>
+
+
+<section id="blog">
+                <div class="blog-heading">
+                    <h3>Our Blog <span></span></h3>    
+                </div>
+
+                <div class="blog-contain">
+
+                    <div class="blog-box">
+
+                        <div class="blog-img">
+                        <img src="Images/p3.jpg" alt="blog img">
+                        <a href="https://dnzlvn.wixsite.com/ptc-denzelvan-blog" class="blog-img-link" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <strong>Technology</strong>
+                            <a href="https://dnzlvn.wixsite.com/ptc-denzelvan-blog" target="_blank">Technology, What is it?</a>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga eligendi similique consequuntur 
+                                cum autem magnam veritatis velit quas culpa adipisci atque tempora corporis quo, excepturi animi qui, itaque odit ipsa?</p>
+                            
+                                <div class="author">
+                                <div class="author-img">
+                                    <img src="denz.jpg" alt="">
+                                </div>
+                                <div class="author-text">
+                                    <strong>Denzel Van Torres</strong>
+                                    <span>January 21,2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-box">
+
+                        <div class="blog-img">
+                        <img src="Images/p1.jpg" alt="blog img">
+                        <a href="https://ptcpaolitonativida.wixsite.com/personalblog" class="blog-img-link" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <strong>Technology</strong>
+                            <a href="https://ptcpaolitonativida.wixsite.com/personalblog" target="_blank">Technology, What is it?</a>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga eligendi similique consequuntur 
+                                cum autem magnam veritatis velit quas culpa adipisci atque tempora corporis quo, excepturi animi qui, itaque odit ipsa?</p>
+                            
+                                <div class="author">
+                                <div class="author-img">
+                                    <img src="pao.jpg" alt="">
+                                </div>
+                                <div class="author-text">
+                                    <strong>Paolito Natividad</strong>
+                                    <span>January 21,2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="blog-box">
+
+                        <div class="blog-img">
+                        <img src="Images/p2.jpg" alt="blog img">
+                        <a href="https://mavaleros.wixsite.com/my-site-1/home" class="blog-img-link" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <strong>Technology</strong>
+                            <a href="https://mavaleros.wixsite.com/my-site-1/home" target="_blank">Technology, What is it?</a>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga eligendi similique consequuntur 
+                                cum autem magnam veritatis velit quas culpa adipisci atque tempora corporis quo, excepturi animi qui, itaque odit ipsa?</p>
+                            
+                                <div class="author">
+                                <div class="author-img">
+                                    <img src="mj.png" alt="">
+                                </div>
+                                <div class="author-text">
+                                    <strong>Mary Jane Valeros</strong>
+                                    <span>January 21,2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+
+
+<section class="contactd" id="contact">
+    <div class="contacts">
+          <h1>Contact Us <span>Have a Project?</span></h1>
+            <div class="contentt">
+               
+
+                <div class="form">
+                    <p>What can we do for you?</p>
+ 
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="e67fad21-c962-4063-b538-071f06edad41">
+
+                    <div class="input-wrap">
+                        <div class="boxs">
+                            <input type="text" name="name" placeholder="Enter Name*" id="nameInput" required>
+                        </div>
+                        <div class="boxs">
+                            <input type="email" name="email" placeholder="Enter Email*" id="emailInput" required>
+                        </div>
+                    </div>
+                    <div class="boxs">
+                        <input type="text" name="message" placeholder="Project Details*" id="projectDetailsInput" required>
+                    </div>
+                    <button type="submit" value="Submit">Submit Form</button>
+                </div>
+            </form>  
+
+            
+                <div class="p-socialss">
+                    <p>Feel free to reach out to us through our Contact Us page for any inquiries, suggestions, or assistance you may need. At 3nity, we value your feedback and are committed to providing excellent customer support. 
+                        Whether you have questions about our products, need technical assistance, or simply want to connect with our team, our dedicated contact form is designed to streamline communication.</p>
+                        <div class="social">
+
+                            <div class="icons">
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            </div>
+
+                            <div class="icons">
+                                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+
+                            <div class="icons">
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+
+                            <div class="icons">
+                                <a href=""><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+    <div class="foot">
+        <div class="copyright">
+            <p>&copy; 2024 3nity. All rights reserved. <small>Website by 3nity Team</small></p>
+          </div>
+      
+        <di class="iconss">
+
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+
+            </div>     
+    </div>
+
+    
+</body>
+
+</html>
