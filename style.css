@@ -557,7 +557,7 @@ section#home{
 }
 
 .team1 .main2 .sci li i:hover{
-    color: #78f701;
+    color: #f9004d;
     cursor: pointer;
 
 }
@@ -810,7 +810,7 @@ label{
 }
 
 label:hover{
-    color: #00ff37;
+    color: #f9004d;
 }
 
 .photo-gallery{
