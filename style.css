@@ -573,7 +573,7 @@ section#home{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: transparent;
     letter-spacing: 4px;
-    background-color: rgb(4, 52, 83);
+    background-color: rgb(247, 247, 247);
     background: linear-gradient(8deg,rbga(8,52,83,1)0%,rgba(0,230,173,1)41%,rgba(41,17,45,1)100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -694,7 +694,7 @@ section#home{
 .portfolio1{
     min-height: 100vh;
     width: 100%;
-    background-color: #2272FF;
+    
     overflow-x: hidden; 
 }
 
@@ -717,7 +717,7 @@ section#home{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: transparent;
     letter-spacing: 4px;
-    background-color: rgb(4, 52, 83);
+    background-color: rgb(255, 255, 255);
     background: linear-gradient(8deg,rbga(8,52,83,1)0%,rgba(0,230,173,1)41%,rgba(41,17,45,1)100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -862,7 +862,7 @@ label:hover{
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
-    background-color: #191a2b;
+    background-color: #0A1828;
 
 }
 
@@ -873,7 +873,7 @@ label:hover{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: transparent;
     letter-spacing: 4px;
-    background-color: rgb(4, 52, 83);
+    background-color: rgb(244, 246, 248);
     background: linear-gradient(8deg,rbga(8,52,83,1)0%,rgba(0,230,173,1)41%,rgba(41,17,45,1)100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -908,6 +908,7 @@ label:hover{
     max-width: 1050px;
     width: 90%;
     margin-top: 50px;
+    gap: 20px;
 }
 
 .blog-box{
@@ -921,7 +922,7 @@ label:hover{
 }
 
 .blog-box:hover{
-    background-color: #ffffff;
+    background-color: #178582;
     box-shadow: 16px 20px 50px rgba(0,0,0,0.12);
 }
 
@@ -986,14 +987,14 @@ label:hover{
 
 .blog-text strong,
 .blog-text p{
-    color: #797979;
+    color: white;
     font-size: 0.9rem;
     font-weight: 400;
 }
 
 .blog-text a{
     font-size: 1.4rem;
-    color: #252525;
+    color: #BFA181;
     font-weight: 800;
     line-height: 1.8rem;
     margin: 5px 0px 10px 0px;
@@ -1037,12 +1038,12 @@ label:hover{
 }
 
 .author-text strong{
-    color: #252525;
+    color: white;
     font-weight: 800;
 }
 
 .author-text span{
-    color: #797979;
+    color: white;
     font-size: 0.8rem;
     font-weight: 500;
 }
