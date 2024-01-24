@@ -388,14 +388,13 @@ section#home{
     position: relative;
     background: #161623;
     flex-wrap: wrap;
-
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: #fff;
     font-weight: 700;
+    overflow-y: hidden;
 }
 
 .team1 .center {
