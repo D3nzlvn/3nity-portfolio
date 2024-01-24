@@ -13,6 +13,7 @@ body{
     background-color: #11141a;
     animation:transitionIn 0.75s;
     overflow-x: hidden; 
+    
 }
 
 
@@ -180,7 +181,6 @@ section{
     font-weight: 700;
     flex-wrap: wrap;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 
@@ -401,7 +401,7 @@ section#home{
     margin: 0;
     color: #fff;
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 100px;
     text-align: center;
     display: flex;
     justify-content: center;
