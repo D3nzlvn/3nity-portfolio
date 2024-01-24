@@ -8,7 +8,6 @@
 }
 
 
-
 body{
     min-height: 100vh;
     background-color: #11141a;
@@ -102,7 +101,7 @@ a:hover{
 /*HEADER*/
 
 header{
-    padding: 0 2rem;
+    padding: 0 1rem;
     position: fixed;
     width: 100%;
     background: #11141a;
