@@ -787,7 +787,7 @@ label{
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: .5s;
-    overflow: hidden;
+    
 }
 
 label:hover{
@@ -1273,6 +1273,7 @@ footer {
     label {
         margin: 0 10px; 
         font-size: 12px; 
+        overflow: hidden;
     }
 
     .blog-contain{
@@ -1312,6 +1313,7 @@ footer {
     label {
         margin: 0 5px; 
         font-size: 16px; 
+        overflow: hidden;
     }
 
     .contacts h1, .contacts h1 span{
@@ -1351,6 +1353,7 @@ footer {
     label {
         margin: 0 3px; 
         font-size: 8px; 
+        overflow: hidden;
     }
 
     .contacts h1, .contacts h1 span{
