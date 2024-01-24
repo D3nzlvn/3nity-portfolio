@@ -467,7 +467,7 @@ section#home{
     position: relative;
     width: 300px;
     height: 400px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(116, 97, 97, 0.5);
     margin: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -525,8 +525,9 @@ section#home{
 
 .team1 .main2 .content .contentBx .name .occ{
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: initial;
+    color: #ffb361;
 }
 
 .team1 .main2 .sci{
@@ -649,7 +650,7 @@ section#home{
     left: -200px;
     width: 120%;
     transform: rotate(50deg);
-    background-color: #fff;
+    background-color: #09ee3b;
     height: 18px;
     filter: blur(30px);
     opacity: 0.5;
@@ -662,7 +663,7 @@ section#home{
 }
 
 .card1 i{
-    color: #808d87;
+    color: #59806d;
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 4.8rem;
@@ -686,10 +687,10 @@ section#home{
 .card1:hover{
     background-color: transparent;
     transform: translateY(-8px);
-    border-color: #a5ceae;
+    border-color: #2a3a2d;
 }
 .card1:hover{
-    color: #a5ceae;
+    color: #1a3520;
 }
 
 @media screen and (max-width:1200px){
@@ -741,6 +742,7 @@ section#home{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
+    text-transform: uppercase;
 }
 
 .Titles:after{
@@ -815,7 +817,7 @@ label:hover{
 }
 
 .photo-gallery{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -939,6 +941,8 @@ label:hover{
     display: flex;
     flex-direction: column;
     transition: all ease 0.3s;
+    border: 2px solid #333232;
+    
 }
 
 .blog-box:hover{
