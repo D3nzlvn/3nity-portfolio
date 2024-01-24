@@ -377,7 +377,7 @@ section#home{
 }
 
 .right .Web::before{
-    width: 0%;
+    width: 90%;
 }
 
 .right .Graph::before{
